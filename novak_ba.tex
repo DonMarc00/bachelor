@@ -8,7 +8,7 @@
 \input{template/_dhbw_praeambel.tex}
 
 %%% Name der eigenen Literatur-Datenbank (ggf. anpassen) %%%
-% \bibliography{includes/name_of_your_bibliography.bib}
+\bibliography{includes/literatur.bib}
 
 \begin{document}
 %%% Deckblatt einbinden %%% 
@@ -47,6 +47,7 @@
 %%% Ihr eigentlicher Inhalt %%%
 % Empfehlung: strukturieren Sie Ihren Text in einzelnen Dateien 
 % und binden Sie diese hier mit \input{includes/dateiname.tex} ein
+\input{includes/einleitung.tex}
 
 %%% Ende des eigentlichen Inhalts %%%
 
@@ -56,6 +57,9 @@
 \clearpage
 \literaturverzeichnis
 %%% Ende Quellenverzeichnisse %%%
+
+\clearpage
+\input{template/_dhbw_ki_erklaerung.tex}
 
 
 %%% Erklärung (keine Anpassungen nötig) %%%
