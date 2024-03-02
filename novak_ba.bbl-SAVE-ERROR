@@ -1,0 +1,109 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{howarth_57_2024}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0cdf8a68143dd854ab58cc099b22030}{%
+           family={Howarth},
+           familyi={H\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a0cdf8a68143dd854ab58cc099b22030}
+      \strng{fullhash}{a0cdf8a68143dd854ab58cc099b22030}
+      \strng{bibnamehash}{a0cdf8a68143dd854ab58cc099b22030}
+      \strng{authorbibnamehash}{a0cdf8a68143dd854ab58cc099b22030}
+      \strng{authornamehash}{a0cdf8a68143dd854ab58cc099b22030}
+      \strng{authorfullhash}{a0cdf8a68143dd854ab58cc099b22030}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Explore insightful and up-to-date statistics on artificial intelligence ({AI}) including market size, growth, business use, job risks \& more.}
+      \field{day}{2}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{title}{57 {NEW} {AI} Statistics}
+      \field{titleaddon}{Exploding Topics}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/novak/Zotero/storage/UTN29YL3/ai-statistics.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://explodingtopics.com/blog/ai-statistics
+      \endverb
+      \verb{url}
+      \verb https://explodingtopics.com/blog/ai-statistics
+      \endverb
+    \endentry
+    \entry{rackspace_most_2023}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bbf5fca8ad3b69ce8532e8a1b08d45fb}{%
+           family={Rackspace},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Statista}%
+      }
+      \strng{namehash}{bbf5fca8ad3b69ce8532e8a1b08d45fb}
+      \strng{fullhash}{bbf5fca8ad3b69ce8532e8a1b08d45fb}
+      \strng{bibnamehash}{bbf5fca8ad3b69ce8532e8a1b08d45fb}
+      \strng{authorbibnamehash}{bbf5fca8ad3b69ce8532e8a1b08d45fb}
+      \strng{authornamehash}{bbf5fca8ad3b69ce8532e8a1b08d45fb}
+      \strng{authorfullhash}{bbf5fca8ad3b69ce8532e8a1b08d45fb}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{o. N.}
+      \field{title}{Most popular {AI} use cases within enterprises worldwide in 2023}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/1447860/most-popular-ai-use-cases-enterprises/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/1447860/most-popular-ai-use-cases-enterprises/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
