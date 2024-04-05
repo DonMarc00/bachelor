@@ -300,3 +300,315 @@ Version Number: 7},
 	date = {2021-11},
 	langid = {english},
 }
+
+@article{bahdanau_neural_2014,
+	title = {Neural Machine Translation by Jointly Learning to Align and Translate},
+	rights = {{arXiv}.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/1409.0473},
+	doi = {10.48550/ARXIV.1409.0473},
+	abstract = {Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder-decoders and consists of an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition.},
+	author = {Bahdanau, Dzmitry and Cho, Kyunghyun and Bengio, Yoshua},
+	urldate = {2024-03-04},
+	date = {2014},
+	note = {Publisher: [object Object]
+Version Number: 7},
+	keywords = {{FOS}: Computer and information sciences, Machine Learning (cs.{LG}), Computation and Language (cs.{CL}), Machine Learning (stat.{ML}), Neural and Evolutionary Computing (cs.{NE})},
+}
+
+@article{geva_transformer_2020,
+	title = {Transformer Feed-Forward Layers Are Key-Value Memories},
+	rights = {{arXiv}.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/2012.14913},
+	doi = {10.48550/ARXIV.2012.14913},
+	abstract = {Feed-forward layers constitute two-thirds of a transformer model's parameters, yet their role in the network remains under-explored. We show that feed-forward layers in transformer-based language models operate as key-value memories, where each key correlates with textual patterns in the training examples, and each value induces a distribution over the output vocabulary. Our experiments show that the learned patterns are human-interpretable, and that lower layers tend to capture shallow patterns, while upper layers learn more semantic ones. The values complement the keys' input patterns by inducing output distributions that concentrate probability mass on tokens likely to appear immediately after each pattern, particularly in the upper layers. Finally, we demonstrate that the output of a feed-forward layer is a composition of its memories, which is subsequently refined throughout the model's layers via residual connections to produce the final output distribution.},
+	author = {Geva, Mor and Schuster, Roei and Berant, Jonathan and Levy, Omer},
+	urldate = {2024-03-04},
+	date = {2020},
+	note = {Publisher: [object Object]
+Version Number: 2},
+	keywords = {{FOS}: Computer and information sciences, Computation and Language (cs.{CL})},
+}
+
+@article{ba_layer_2016,
+	title = {Layer Normalization},
+	rights = {{arXiv}.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/1607.06450},
+	doi = {10.48550/ARXIV.1607.06450},
+	abstract = {Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This significantly reduces the training time in feed-forward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to recurrent neural networks. In this paper, we transpose batch normalization into layer normalization by computing the mean and variance used for normalization from all of the summed inputs to the neurons in a layer on a single training case. Like batch normalization, we also give each neuron its own adaptive bias and gain which are applied after the normalization but before the non-linearity. Unlike batch normalization, layer normalization performs exactly the same computation at training and test times. It is also straightforward to apply to recurrent neural networks by computing the normalization statistics separately at each time step. Layer normalization is very effective at stabilizing the hidden state dynamics in recurrent networks. Empirically, we show that layer normalization can substantially reduce the training time compared with previously published techniques.},
+	author = {Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E.},
+	urldate = {2024-03-05},
+	date = {2016},
+	note = {Publisher: [object Object]
+Version Number: 1},
+	keywords = {{FOS}: Computer and information sciences, Machine Learning (cs.{LG}), Machine Learning (stat.{ML})},
+}
+
+@misc{yang_sub-layer_2020,
+	title = {On the Sub-Layer Functionalities of Transformer Decoder},
+	url = {http://arxiv.org/abs/2010.02648},
+	abstract = {There have been significant efforts to interpret the encoder of Transformer-based encoder-decoder architectures for neural machine translation ({NMT}); meanwhile, the decoder remains largely unexamined despite its critical role. During translation, the decoder must predict output tokens by considering both the source-language text from the encoder and the target-language prefix produced in previous steps. In this work, we study how Transformer-based decoders leverage information from the source and target languages -- developing a universal probe task to assess how information is propagated through each module of each decoder layer. We perform extensive experiments on three major translation datasets ({WMT} En-De, En-Fr, and En-Zh). Our analysis provides insight on when and where decoders leverage different sources. Based on these insights, we demonstrate that the residual feed-forward module in each Transformer decoder layer can be dropped with minimal loss of performance -- a significant reduction in computation and number of parameters, and consequently a significant boost to both training and inference speed.},
+	number = {{arXiv}:2010.02648},
+	publisher = {{arXiv}},
+	author = {Yang, Yilin and Wang, Longyue and Shi, Shuming and Tadepalli, Prasad and Lee, Stefan and Tu, Zhaopeng},
+	urldate = {2024-03-05},
+	date = {2020-10-06},
+	eprinttype = {arxiv},
+	eprint = {2010.02648 [cs]},
+	keywords = {Computer Science - Computation and Language, Computer Science - Artificial Intelligence},
+	file = {arXiv Fulltext PDF:/Users/novak/Zotero/storage/8GJI8BYR/Yang et al. - 2020 - On the Sub-Layer Functionalities of Transformer De.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/9NZKFTHF/2010.html:text/html},
+}
+
+@book{becker_modern_2020,
+	location = {München},
+	edition = {2},
+	title = {Modern Approaches in Natural Language Processing},
+	url = {https://slds-lmu.github.io/seminar_nlp_ss20/},
+	abstract = {In the last few years, there have been several breakthroughs concerning the methodologies used in Natural Language Processing ({NLP}). These breakthroughs originate from both new modeling frameworks as well as from improvements in the availability of computational and lexical resources.
+
+In this seminar booklet, we are reviewing these frameworks starting with a methodology that can be seen as the beginning of modern {NLP}: Word Embeddings.
+
+We will further discuss the integration of embeddings into end-to-end trainable approaches, namely convolutional and recurrent neural networks.
+
+The second chapter of this booklet is going to cover the impact of Attention-based models, since they are the foundation of most of the recent state-of-the-art architectures. Consequently, we will also spend a large part of this chapter on the use of transfer learning approaches in modern {NLP}.
+
+To cap it all of, the last chapter will be abour pre-training resources and benchmark tasks/data sets for evaluating state-of-the-art models followed by an illustrative use case on Natural Language Generation.
+
+This book is the outcome of the seminar “Modern Approaches in Natural Language Processing” which took place in the summer term 2020 at the Department of Statistics, {LMU} Munich.},
+	publisher = {{LMU} München},
+	author = {Becker, Carolin and Hahn, Nico and He, Bailan and Jabbar, Haris and Plesiak, Marianna and Szabo, Victoria and To, Xiao-Yin and Yang, Rui and Wagner, Joshua},
+	urldate = {2024-03-06},
+	date = {2020-09-08},
+	langid = {english},
+}
+
+@misc{ramachandran_stand-alone_2019,
+	title = {Stand-Alone Self-Attention in Vision Models},
+	url = {http://arxiv.org/abs/1906.05909},
+	abstract = {Convolutions are a fundamental building block of modern computer vision systems. Recent approaches have argued for going beyond convolutions in order to capture long-range dependencies. These efforts focus on augmenting convolutional models with content-based interactions, such as self-attention and non-local means, to achieve gains on a number of vision tasks. The natural question that arises is whether attention can be a stand-alone primitive for vision models instead of serving as just an augmentation on top of convolutions. In developing and testing a pure self-attention vision model, we verify that self-attention can indeed be an effective stand-alone layer. A simple procedure of replacing all instances of spatial convolutions with a form of self-attention applied to {ResNet} model produces a fully self-attentional model that outperforms the baseline on {ImageNet} classification with 12\% fewer {FLOPS} and 29\% fewer parameters. On {COCO} object detection, a pure self-attention model matches the {mAP} of a baseline {RetinaNet} while having 39\% fewer {FLOPS} and 34\% fewer parameters. Detailed ablation studies demonstrate that self-attention is especially impactful when used in later layers. These results establish that stand-alone self-attention is an important addition to the vision practitioner's toolbox.},
+	number = {{arXiv}:1906.05909},
+	publisher = {{arXiv}},
+	author = {Ramachandran, Prajit and Parmar, Niki and Vaswani, Ashish and Bello, Irwan and Levskaya, Anselm and Shlens, Jonathon},
+	urldate = {2024-03-07},
+	date = {2019-06-13},
+	eprinttype = {arxiv},
+	eprint = {1906.05909 [cs]},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	file = {arXiv Fulltext PDF:/Users/novak/Zotero/storage/JUU5K6XV/Ramachandran et al. - 2019 - Stand-Alone Self-Attention in Vision Models.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/6FYCHSAA/1906.html:text/html},
+}
+
+@article{peters_deep_2018,
+	title = {Deep contextualized word representations},
+	rights = {{arXiv}.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/1802.05365},
+	doi = {10.48550/ARXIV.1802.05365},
+	abstract = {We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model ({biLM}), which is pre-trained on a large text corpus. We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging {NLP} problems, including question answering, textual entailment and sentiment analysis. We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.},
+	author = {Peters, Matthew E. and Neumann, Mark and Iyyer, Mohit and Gardner, Matt and Clark, Christopher and Lee, Kenton and Zettlemoyer, Luke},
+	urldate = {2024-03-07},
+	date = {2018},
+	note = {Publisher: [object Object]
+Version Number: 2},
+	keywords = {{FOS}: Computer and information sciences, Computation and Language (cs.{CL})},
+}
+
+@inproceedings{hwang_post-ocr_2019,
+	title = {Post-{OCR} parsing: building simple and robust parser via {BIO} tagging},
+	url = {https://api.semanticscholar.org/CorpusID:207910450},
+	author = {Hwang, Wonseok and Kim, Seonghyeon and Seo, Minjoon and Yim, Jinyeong and Park, Seunghyun and Park, Sungrae and Lee, Junyeop and Lee, Bado and Lee, Hwalsuk},
+	date = {2019},
+}
+
+@inproceedings{hwang_spatial_2021,
+	location = {Online},
+	title = {Spatial Dependency Parsing for Semi-Structured Document Information Extraction},
+	url = {https://aclanthology.org/2021.findings-acl.28},
+	doi = {10.18653/v1/2021.findings-acl.28},
+	eventtitle = {Findings of the Association for Computational Linguistics: {ACL}-{IJCNLP} 2021},
+	pages = {330--343},
+	booktitle = {Findings of the Association for Computational Linguistics: {ACL}-{IJCNLP} 2021},
+	publisher = {Association for Computational Linguistics},
+	author = {Hwang, Wonseok and Yim, Jinyeong and Park, Seunghyun and Yang, Sohee and Seo, Minjoon},
+	urldate = {2024-03-13},
+	date = {2021},
+	langid = {english},
+	file = {Full Text:/Users/novak/Zotero/storage/K9XH7AX2/Hwang et al. - 2021 - Spatial Dependency Parsing for Semi-Structured Doc.pdf:application/pdf},
+}
+
+@inproceedings{xu_layoutlm_2020,
+	title = {{LayoutLM}: Pre-training of Text and Layout for Document Image Understanding},
+	url = {http://arxiv.org/abs/1912.13318},
+	doi = {10.1145/3394486.3403172},
+	shorttitle = {{LayoutLM}},
+	abstract = {Pre-training techniques have been verified successfully in a variety of {NLP} tasks in recent years. Despite the widespread use of pre-training models for {NLP} applications, they almost exclusively focus on text-level manipulation, while neglecting layout and style information that is vital for document image understanding. In this paper, we propose the {\textbackslash}textbf\{{LayoutLM}\} to jointly model interactions between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage image features to incorporate words' visual information into {LayoutLM}. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for document-level pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). The code and pre-trained {LayoutLM} models are publicly available at {\textbackslash}url\{https://aka.ms/layoutlm\}.},
+	pages = {1192--1200},
+	booktitle = {Proceedings of the 26th {ACM} {SIGKDD} International Conference on Knowledge Discovery \& Data Mining},
+	author = {Xu, Yiheng and Li, Minghao and Cui, Lei and Huang, Shaohan and Wei, Furu and Zhou, Ming},
+	urldate = {2024-03-13},
+	date = {2020-08-23},
+	eprinttype = {arxiv},
+	eprint = {1912.13318 [cs]},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv Fulltext PDF:/Users/novak/Zotero/storage/Z59R2FMX/Xu et al. - 2020 - LayoutLM Pre-training of Text and Layout for Docu.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/8UVD2ZT5/1912.html:text/html},
+}
+
+@misc{xu_layoutlmv2_2022,
+	title = {{LayoutLMv}2: Multi-modal Pre-training for Visually-Rich Document Understanding},
+	url = {http://arxiv.org/abs/2012.14740},
+	shorttitle = {{LayoutLMv}2},
+	abstract = {Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents. We propose {LayoutLMv}2 architecture with new pre-training tasks to model the interaction among text, layout, and image in a single multi-modal framework. Specifically, with a two-stream multi-modal Transformer encoder, {LayoutLMv}2 uses not only the existing masked visual-language modeling task but also the new text-image alignment and text-image matching tasks, which make it better capture the cross-modality interaction in the pre-training stage. Meanwhile, it also integrates a spatial-aware self-attention mechanism into the Transformer architecture so that the model can fully understand the relative positional relationship among different text blocks. Experiment results show that {LayoutLMv}2 outperforms {LayoutLM} by a large margin and achieves new state-of-the-art results on a wide variety of downstream visually-rich document understanding tasks, including {FUNSD} (0.7895 \${\textbackslash}to\$ 0.8420), {CORD} (0.9493 \${\textbackslash}to\$ 0.9601), {SROIE} (0.9524 \${\textbackslash}to\$ 0.9781), Kleister-{NDA} (0.8340 \${\textbackslash}to\$ 0.8520), {RVL}-{CDIP} (0.9443 \${\textbackslash}to\$ 0.9564), and {DocVQA} (0.7295 \${\textbackslash}to\$ 0.8672). We made our model and code publicly available at {\textbackslash}url\{https://aka.ms/layoutlmv2\}.},
+	number = {{arXiv}:2012.14740},
+	publisher = {{arXiv}},
+	author = {Xu, Yang and Xu, Yiheng and Lv, Tengchao and Cui, Lei and Wei, Furu and Wang, Guoxin and Lu, Yijuan and Florencio, Dinei and Zhang, Cha and Che, Wanxiang and Zhang, Min and Zhou, Lidong},
+	urldate = {2024-03-14},
+	date = {2022-01-09},
+	eprinttype = {arxiv},
+	eprint = {2012.14740 [cs]},
+	keywords = {Computer Science - Computation and Language},
+	file = {arXiv Fulltext PDF:/Users/novak/Zotero/storage/EJGQP6DT/Xu et al. - 2022 - LayoutLMv2 Multi-modal Pre-training for Visually-.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/BJEKRTQY/2012.html:text/html},
+}
+
+@article{aggarwal_dublin_2023,
+	title = {{DUBLIN} -- Document Understanding By Language-Image Network},
+	rights = {Creative Commons Attribution Share Alike 4.0 International},
+	url = {https://arxiv.org/abs/2305.14218},
+	doi = {10.48550/ARXIV.2305.14218},
+	abstract = {Visual document understanding is a complex task that involves analyzing both the text and the visual elements in document images. Existing models often rely on manual feature engineering or domain-specific pipelines, which limit their generalization ability across different document types and languages. In this paper, we propose {DUBLIN}, which is pretrained on web pages using three novel objectives: Masked Document Text Generation Task, Bounding Box Task, and Rendered Question Answering Task, that leverage both the spatial and semantic information in the document images. Our model achieves competitive or state-of-the-art results on several benchmarks, such as Web-Based Structural Reading Comprehension, Document Visual Question Answering, Key Information Extraction, Diagram Understanding, and Table Question Answering. In particular, we show that {DUBLIN} is the first pixel-based model to achieve an {EM} of 77.75 and F1 of 84.25 on the {WebSRC} dataset. We also show that our model outperforms the current pixel-based {SOTA} models on {DocVQA}, {InfographicsVQA}, {OCR}-{VQA} and {AI}2D datasets by 4.6\%, 6.5\%, 2.6\% and 21\%, respectively. We also achieve competitive performance on {RVL}-{CDIP} document classification. Moreover, we create new baselines for text-based datasets by rendering them as document images to promote research in this direction.},
+	author = {Aggarwal, Kriti and Khandelwal, Aditi and Tanmay, Kumar and Khan, Owais Mohammed and Liu, Qiang and Choudhury, Monojit and Chauhan, Hardik Hansrajbhai and Som, Subhojit and Chaudhary, Vishrav and Tiwary, Saurabh},
+	urldate = {2024-03-27},
+	date = {2023},
+	note = {Publisher: [object Object]
+Version Number: 4},
+	keywords = {Artificial Intelligence (cs.{AI}), {FOS}: Computer and information sciences, Computer Vision and Pattern Recognition (cs.{CV}), F.2.2; I.2.7},
+}
+
+@article{mathew_infographicvqa_2021,
+	title = {{InfographicVQA}},
+	rights = {{arXiv}.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/2104.12756},
+	doi = {10.48550/ARXIV.2104.12756},
+	abstract = {Infographics are documents designed to effectively communicate information using a combination of textual, graphical and visual elements. In this work, we explore the automatic understanding of infographic images by using Visual Question Answering technique.To this end, we present {InfographicVQA}, a new dataset that comprises a diverse collection of infographics along with natural language questions and answers annotations. The collected questions require methods to jointly reason over the document layout, textual content, graphical elements, and data visualizations. We curate the dataset with emphasis on questions that require elementary reasoning and basic arithmetic skills. Finally, we evaluate two strong baselines based on state of the art multi-modal {VQA} models, and establish baseline performance for the new task. The dataset, code and leaderboard will be made available at http://docvqa.org},
+	author = {Mathew, Minesh and Bagal, Viraj and Tito, Rubèn Pérez and Karatzas, Dimosthenis and Valveny, Ernest and Jawahar, C. V},
+	urldate = {2024-03-27},
+	date = {2021},
+	note = {Publisher: [object Object]
+Version Number: 2},
+	keywords = {{FOS}: Computer and information sciences, Computation and Language (cs.{CL}), Computer Vision and Pattern Recognition (cs.{CV})},
+}
+
+@inproceedings{jiang_evaluating_2021,
+	location = {Champaign, {IL}, {USA}},
+	title = {Evaluating {BERT}'s Encoding of Intrinsic Semantic Features of {OCR}'d Digital Library Collections},
+	rights = {https://doi.org/10.15223/policy-029},
+	isbn = {978-1-66541-770-9},
+	url = {https://ieeexplore.ieee.org/document/9651810/},
+	doi = {10.1109/JCDL52503.2021.00045},
+	eventtitle = {2021 {ACM}/{IEEE} Joint Conference on Digital Libraries ({JCDL})},
+	pages = {308--309},
+	booktitle = {2021 {ACM}/{IEEE} Joint Conference on Digital Libraries ({JCDL})},
+	publisher = {{IEEE}},
+	author = {Jiang, Ming and Hu, Yuerong and Worthey, Glen and Dubnicek, Ryan C and Underwood, Ted and Downie, J Stephen},
+	urldate = {2024-04-04},
+	date = {2021-09},
+}
+
+@article{devlin_bert_2018,
+	title = {{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding},
+	rights = {{arXiv}.org perpetual, non-exclusive license},
+	url = {https://arxiv.org/abs/1810.04805},
+	doi = {10.48550/ARXIV.1810.04805},
+	shorttitle = {{BERT}},
+	abstract = {We introduce a new language representation model called {BERT}, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, {BERT} is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained {BERT} model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. {BERT} is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the {GLUE} score to 80.5\% (7.7\% point absolute improvement), {MultiNLI} accuracy to 86.7\% (4.6\% absolute improvement), {SQuAD} v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and {SQuAD} v2.0 Test F1 to 83.1 (5.1 point absolute improvement).},
+	author = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+	urldate = {2024-04-04},
+	date = {2018},
+	note = {Publisher: [object Object]
+Version Number: 2},
+	keywords = {{FOS}: Computer and information sciences, Computation and Language (cs.{CL})},
+}
+
+@article{naser_error_2023,
+	title = {Error Metrics and Performance Fitness Indicators for Artificial Intelligence and Machine Learning in Engineering and Sciences},
+	volume = {3},
+	issn = {2730-9886, 2730-9894},
+	url = {https://link.springer.com/10.1007/s44150-021-00015-8},
+	doi = {10.1007/s44150-021-00015-8},
+	pages = {499--517},
+	number = {4},
+	journaltitle = {Architecture, Structures and Construction},
+	shortjournal = {Archit. Struct. Constr.},
+	author = {Naser, M. Z. and Alavi, Amir H.},
+	urldate = {2024-04-05},
+	date = {2023-12},
+	langid = {english},
+	file = {Submitted Version:/Users/novak/Zotero/storage/VQMYELNF/Naser and Alavi - 2023 - Error Metrics and Performance Fitness Indicators f.pdf:application/pdf},
+}
+
+@article{liang_confusion_2022,
+	title = {Confusion Matrix: Machine Learning},
+	volume = {3},
+	rights = {Copyright (c) 2022 Jingsai Liang},
+	url = {https://pac.pogil.org/index.php/pac/article/view/304},
+	shorttitle = {Confusion Matrix},
+	abstract = {This activity focuses on the evaluation of binary classification models using confusion matrix. In model 1, students will learn the table of confusion, which organizes the prediction results in a 2 by 2 matrix. In model 2, students will summarize a group of evaluation quantities based on the confusion matrix, including precision, recall, {FPR}, and accuracy. Lastly, students will compare the difference between type I and type {II} errors.
+This activity was developed with {NSF} support through {IUSE}-1626765. You may request access to this activity via the following link:\&nbsp;{IntroCS}-{POGIL} Activity Writing Program.\&nbsp;
+
+Level: Undergraduate
+Setting: Classroom
+Activity Type: Learning Cycle
+Discipline: Computer Science
+Course: Machine Learning
+Keywords: model evaluation, confusion matrix, precision, recall, accuracy, {FPR}},
+	number = {4},
+	journaltitle = {{POGIL} Activity Clearinghouse},
+	author = {Liang, Jingsai},
+	urldate = {2024-04-05},
+	date = {2022-12-12},
+	langid = {english},
+	note = {Number: 4},
+}
+
+@online{pawan_confusion_2019,
+	title = {Confusion Matrix},
+	url = {https://devopedia.org/confusion-matrix},
+	abstract = {In statistical classification, we create algorithms or models to predict or classify data into a finite set of classes. Since models are not perfect, some data points will be classified incorrectly. Confusion matrix is basically a tabular summary showing how well the model is performing.},
+	titleaddon = {Devopedia},
+	author = {Pawan, Dubey},
+	urldate = {2024-04-05},
+	date = {2019-08-20},
+	langid = {english},
+	file = {Snapshot:/Users/novak/Zotero/storage/TIYPTE8E/confusion-matrix.html:text/html},
+}
+
+@article{parikh_understanding_2008,
+	title = {Understanding and using sensitivity, specificity and predictive values},
+	volume = {56},
+	issn = {0301-4738},
+	url = {https://journals.lww.com/10.4103/0301-4738.37595},
+	doi = {10.4103/0301-4738.37595},
+	pages = {45},
+	number = {1},
+	journaltitle = {Indian Journal of Ophthalmology},
+	shortjournal = {Indian J Ophthalmol},
+	author = {Parikh, Rajul and Mathai, Annie and Parikh, Shefali and Chandra Sekhar, G and Thomas, Ravi},
+	urldate = {2024-04-05},
+	date = {2008},
+	langid = {english},
+	file = {Full Text:/Users/novak/Zotero/storage/2GDJYWR8/Parikh et al. - 2008 - Understanding and using sensitivity, specificity a.pdf:application/pdf},
+}
+
+@incollection{yin_comparing_2011,
+	location = {Berlin, Heidelberg},
+	title = {Comparing Multi-class Classifiers: On the Similarity of Confusion Matrices for Predictive Toxicology Applications},
+	volume = {6936},
+	isbn = {978-3-642-23877-2 978-3-642-23878-9},
+	url = {http://link.springer.com/10.1007/978-3-642-23878-9_31},
+	shorttitle = {Comparing Multi-class Classifiers},
+	pages = {252--261},
+	booktitle = {Intelligent Data Engineering and Automated Learning - {IDEAL} 2011},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Makhtar, Mokhairi and Neagu, Daniel C. and Ridley, Mick J.},
+	editor = {Yin, Hujun and Wang, Wenjia and Rayward-Smith, Victor},
+	urldate = {2024-04-05},
+	date = {2011},
+	doi = {10.1007/978-3-642-23878-9_31},
+	note = {Series Title: Lecture Notes in Computer Science},
+}
