@@ -1,0 +1,110 @@
+
+\pgfplotsset{compat=1.9}
+
+\begin{figure}
+\centering
+% F1 Score
+\begin{minipage}{.32\textwidth}
+\begin{tikzpicture}
+\begin{axis}[
+    title={F1 Score},
+    xlabel={Datensatzgröße},
+    ylabel={F1},
+    xmin=180, xmax=850,
+    ymin=0, ymax=1,
+    xtick={180,300,850},
+    ytick={0,0.25,0.5,0.75,1},
+    tick label style={font=\tiny},
+    label style={font=\small},
+    title style={font=\small},
+    legend style={font=\tiny},
+    legend pos=south east,
+    ymajorgrids=true,
+    grid style=dashed,
+    width=\linewidth, height=6cm,
+]
+
+\addplot[color=blue,mark=*,] coordinates {(180,0.133)(300,0.649)(850,0.802)};
+\addlegendentry{Donut}
+
+\addplot[color=red,mark=*,] coordinates {(180,0.818)(300,0.909)(850,0.921)};
+\addlegendentry{LayoutLMv3}
+
+\addplot[color=green,mark=*,] coordinates {(180,0.846)(300,0.911)(850,0.884)};
+\addlegendentry{BERT}
+
+\end{axis}
+\end{tikzpicture}
+\end{minipage}%
+%
+% Accuracy
+\begin{minipage}{.32\textwidth}
+\begin{tikzpicture}
+\begin{axis}[
+    title={Accuracy},
+    xlabel={Datensatzgröße},
+    ylabel={Acc},
+    xmin=180, xmax=850,
+    ymin=0, ymax=1,
+    xtick={180,300,850},
+    ytick={0,0.25,0.5,0.75,1},
+    tick label style={font=\tiny},
+    label style={font=\small},
+    title style={font=\small},
+    legend style={font=\tiny},
+    legend pos=south east,
+    ymajorgrids=true,
+    grid style=dashed,
+    width=\linewidth, height=6cm,
+]
+
+\addplot[color=blue,mark=*,] coordinates {(180,0.245)(300,0.702)(850,0.857)};
+\addlegendentry{Donut}
+
+\addplot[color=red,mark=*,] coordinates {(180,0.875)(300,0.942)(850,0.941)};
+\addlegendentry{LayoutLMv3}
+
+\addplot[color=green,mark=*,] coordinates {(180,0.921)(300,0.939)(850,0.935)};
+\addlegendentry{BERT}
+
+\end{axis}
+\end{tikzpicture}
+\end{minipage}%
+%
+% GPU Stunden
+\begin{minipage}{.32\textwidth}
+\begin{tikzpicture}
+\begin{axis}[
+    title={GPUh},
+    xlabel={Datensatzgröße},
+    ylabel={GPUh},
+    xmin=180, xmax=850,
+    ymin=0, ymax=3.5,
+    xtick={180,300,850},
+    ytick={0,1,2,3},
+    tick label style={font=\tiny},
+    label style={font=\small},
+    title style={font=\small},
+    legend style={font=\tiny},
+    legend pos=north west,
+    ymajorgrids=true,
+    grid style=dashed,
+    width=\linewidth, height=6cm,
+]
+
+\addplot[color=blue,mark=*,] coordinates {(180,0.54)(300,1.382)(850,3.11)};
+\addlegendentry{Donut}
+
+\addplot[color=red,mark=*,] coordinates {(180,0.34)(300,0.59)(850,2.04)};
+\addlegendentry{LayoutLMv3}
+
+\addplot[color=green,mark=*,] coordinates {(180,0.053)(300,0.077)(850,0.255)};
+\addlegendentry{BERT}
+
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+\caption{Vergleich der Modellmetriken F1 Score, Accuracy und GPU Stunden (GPUh) über verschiedene Datensatzgrößen.}
+\label{fig:experiment_results}
+\end{figure}
+

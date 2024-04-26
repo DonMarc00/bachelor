@@ -19,6 +19,795 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{aggarwal_dublin_2023}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=a4be4f626fd0945c0305e6a756e9ccd1}{%
+           family={Aggarwal},
+           familyi={A\bibinitperiod},
+           given={Kriti},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64184b15dd18577144f435525eab3adf}{%
+           family={Khandelwal},
+           familyi={K\bibinitperiod},
+           given={Aditi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f39f932b5ab51a71833a1086c32b541}{%
+           family={Tanmay},
+           familyi={T\bibinitperiod},
+           given={Kumar},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40cee0c1b1060f68c44f651a0d820019}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Owais\bibnamedelima Mohammed},
+           giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8c0010ab32e4255b70bd8d9fefdf5cd}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a7a17fc7626c6be3b71a694952301e6}{%
+           family={Choudhury},
+           familyi={C\bibinitperiod},
+           given={Monojit},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1bba909dc0af509da24d904df420f91}{%
+           family={Chauhan},
+           familyi={C\bibinitperiod},
+           given={Hardik\bibnamedelima Hansrajbhai},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a074700478de57b17999489a50dbc67e}{%
+           family={Som},
+           familyi={S\bibinitperiod},
+           given={Subhojit},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2b6a497c32b61dbbfc24edec6778700}{%
+           family={Chaudhary},
+           familyi={C\bibinitperiod},
+           given={Vishrav},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdae4a9227cc9d2f3797bae6bb83cab8}{%
+           family={Tiwary},
+           familyi={T\bibinitperiod},
+           given={Saurabh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6261b67ddcadf5afb3dda2dda7f63a5e}
+      \strng{fullhash}{392a1f804e4696c50be29b4adffb4604}
+      \strng{bibnamehash}{392a1f804e4696c50be29b4adffb4604}
+      \strng{authorbibnamehash}{392a1f804e4696c50be29b4adffb4604}
+      \strng{authornamehash}{6261b67ddcadf5afb3dda2dda7f63a5e}
+      \strng{authorfullhash}{392a1f804e4696c50be29b4adffb4604}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Visual document understanding is a complex task that involves analyzing both the text and the visual elements in document images. Existing models often rely on manual feature engineering or domain-specific pipelines, which limit their generalization ability across different document types and languages. In this paper, we propose {DUBLIN}, which is pretrained on web pages using three novel objectives: Masked Document Text Generation Task, Bounding Box Task, and Rendered Question Answering Task, that leverage both the spatial and semantic information in the document images. Our model achieves competitive or state-of-the-art results on several benchmarks, such as Web-Based Structural Reading Comprehension, Document Visual Question Answering, Key Information Extraction, Diagram Understanding, and Table Question Answering. In particular, we show that {DUBLIN} is the first pixel-based model to achieve an {EM} of 77.75 and F1 of 84.25 on the {WebSRC} dataset. We also show that our model outperforms the current pixel-based {SOTA} models on {DocVQA}, {InfographicsVQA}, {OCR}-{VQA} and {AI}2D datasets by 4.6\%, 6.5\%, 2.6\% and 21\%, respectively. We also achieve competitive performance on {RVL}-{CDIP} document classification. Moreover, we create new baselines for text-based datasets by rendering them as document images to promote research in this direction.}
+      \field{note}{Publisher: [object Object] Version Number: 4}
+      \field{title}{{DUBLIN} -- Document Understanding By Language-Image Network}
+      \field{urlday}{27}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2305.14218
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2305.14218
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2305.14218
+      \endverb
+      \keyw{Artificial Intelligence (cs.{AI}),{FOS}: Computer and information sciences,Computer Vision and Pattern Recognition (cs.{CV}),F.2.2; I.2.7}
+    \endentry
+    \entry{ba_layer_2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=750bb29ebaf655e36626e464041edb6d}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy\bibnamedelima Lei},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ce51427604561924b91aa544c9c1b2a}{%
+           family={Kiros},
+           familyi={K\bibinitperiod},
+           given={Jamie\bibnamedelima Ryan},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=813bd95fe553e6079cd53a567b238287}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{059348b2d0b3fe9a67209502c14057d1}
+      \strng{fullhash}{059348b2d0b3fe9a67209502c14057d1}
+      \strng{bibnamehash}{059348b2d0b3fe9a67209502c14057d1}
+      \strng{authorbibnamehash}{059348b2d0b3fe9a67209502c14057d1}
+      \strng{authornamehash}{059348b2d0b3fe9a67209502c14057d1}
+      \strng{authorfullhash}{059348b2d0b3fe9a67209502c14057d1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This significantly reduces the training time in feed-forward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to recurrent neural networks. In this paper, we transpose batch normalization into layer normalization by computing the mean and variance used for normalization from all of the summed inputs to the neurons in a layer on a single training case. Like batch normalization, we also give each neuron its own adaptive bias and gain which are applied after the normalization but before the non-linearity. Unlike batch normalization, layer normalization performs exactly the same computation at training and test times. It is also straightforward to apply to recurrent neural networks by computing the normalization statistics separately at each time step. Layer normalization is very effective at stabilizing the hidden state dynamics in recurrent networks. Empirically, we show that layer normalization can substantially reduce the training time compared with previously published techniques.}
+      \field{note}{Publisher: [object Object] Version Number: 1}
+      \field{title}{Layer Normalization}
+      \field{urlday}{5}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1607.06450
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1607.06450
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1607.06450
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Machine Learning (cs.{LG}),Machine Learning (stat.{ML})}
+    \endentry
+    \entry{bahdanau_neural_2014}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6d80adec79a13a33e73215c5f46f1605}{%
+           family={Bahdanau},
+           familyi={B\bibinitperiod},
+           given={Dzmitry},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3da7501a79d9346572c7fd6e41b615df}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Kyunghyun},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ccf5ebef61998aaab5ec6eace8f4564d}
+      \strng{fullhash}{ccf5ebef61998aaab5ec6eace8f4564d}
+      \strng{bibnamehash}{ccf5ebef61998aaab5ec6eace8f4564d}
+      \strng{authorbibnamehash}{ccf5ebef61998aaab5ec6eace8f4564d}
+      \strng{authornamehash}{ccf5ebef61998aaab5ec6eace8f4564d}
+      \strng{authorfullhash}{ccf5ebef61998aaab5ec6eace8f4564d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder-decoders and consists of an encoder that encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder-decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition.}
+      \field{title}{Neural Machine Translation by Jointly Learning to Align and Translate}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1409.0473
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1409.0473
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1409.0473
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Machine Learning (cs.{LG}),Computation and Language (cs.{CL}),Machine Learning (stat.{ML}),Neural and Evolutionary Computing (cs.{NE})}
+    \endentry
+    \entry{beysolow_ii_applied_2018}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6d1c985cacee24a1e5ee94c2927452a4}{%
+           family={Beysolow\bibnamedelima {II}},
+           familyi={B\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={Taweh},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berkeley, {CA}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{6d1c985cacee24a1e5ee94c2927452a4}
+      \strng{fullhash}{6d1c985cacee24a1e5ee94c2927452a4}
+      \strng{bibnamehash}{6d1c985cacee24a1e5ee94c2927452a4}
+      \strng{authorbibnamehash}{6d1c985cacee24a1e5ee94c2927452a4}
+      \strng{authornamehash}{6d1c985cacee24a1e5ee94c2927452a4}
+      \strng{authorfullhash}{6d1c985cacee24a1e5ee94c2927452a4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-4842-3732-8 978-1-4842-3733-5}
+      \field{langid}{english}
+      \field{shorttitle}{Applied Natural Language Processing with Python}
+      \field{title}{Applied Natural Language Processing with Python: Implementing Machine Learning and Deep Learning Algorithms for Natural Language Processing}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-1-4842-3733-5
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/novak/Zotero/storage/3ELQBZ3H/Beysolow Ii - 2018 - Applied Natural Language Processing with Python I.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-1-4842-3733-5
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-1-4842-3733-5
+      \endverb
+    \endentry
+    \entry{buchholz_infographic_2023}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fa015f617cbb695a7dc52bae872e73df}{%
+           family={Buchholz},
+           familyi={B\bibinitperiod},
+           given={Katharina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fa015f617cbb695a7dc52bae872e73df}
+      \strng{fullhash}{fa015f617cbb695a7dc52bae872e73df}
+      \strng{bibnamehash}{fa015f617cbb695a7dc52bae872e73df}
+      \strng{authorbibnamehash}{fa015f617cbb695a7dc52bae872e73df}
+      \strng{authornamehash}{fa015f617cbb695a7dc52bae872e73df}
+      \strng{authorfullhash}{fa015f617cbb695a7dc52bae872e73df}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This chart shows the time it took for selected online services to reach one million users.}
+      \field{day}{7}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{shorttitle}{Infographic}
+      \field{title}{Infographic: Threads Shoots Past One Million User Mark at Lightning Speed}
+      \field{titleaddon}{Statista Daily Data}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/novak/Zotero/storage/NDCMXV42/time-to-one-million-users.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.statista.com/chart/29174/time-to-one-million-users
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/chart/29174/time-to-one-million-users
+      \endverb
+    \endentry
+    \entry{devlin_bert_2018}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We introduce a new language representation model called {BERT}, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, {BERT} is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained {BERT} model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. {BERT} is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the {GLUE} score to 80.5\% (7.7\% point absolute improvement), {MultiNLI} accuracy to 86.7\% (4.6\% absolute improvement), {SQuAD} v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and {SQuAD} v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{note}{Publisher: [object Object] Version Number: 2}
+      \field{shorttitle}{{BERT}}
+      \field{title}{{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding}
+      \field{urlday}{4}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1810.04805
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1810.04805
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1810.04805
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Computation and Language (cs.{CL})}
+    \endentry
+    \entry{dhouib_docparser_2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1f8338b64de70e3745eb956a9be47399}{%
+           family={Dhouib},
+           familyi={D\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05eebcf3e1eddda90d26351cc944975c}{%
+           family={Bettaieb},
+           familyi={B\bibinitperiod},
+           given={Ghassen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f7f8e56d542c77f474c533eebef36b4}{%
+           family={Shabou},
+           familyi={S\bibinitperiod},
+           given={Aymen},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a1afc0e6b58ced01fc7df6a344b70b1}
+      \strng{fullhash}{7a1afc0e6b58ced01fc7df6a344b70b1}
+      \strng{bibnamehash}{7a1afc0e6b58ced01fc7df6a344b70b1}
+      \strng{authorbibnamehash}{7a1afc0e6b58ced01fc7df6a344b70b1}
+      \strng{authornamehash}{7a1afc0e6b58ced01fc7df6a344b70b1}
+      \strng{authorfullhash}{7a1afc0e6b58ced01fc7df6a344b70b1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Information Extraction from visually rich documents is a challenging task that has gained a lot of attention in recent years due to its importance in several document-control based applications and its widespread commercial value. The majority of the research work conducted on this topic to date follow a two-step pipeline. First, they read the text using an off-the-shelf Optical Character Recognition ({OCR}) engine, then, they extract the fields of interest from the obtained text. The main drawback of these approaches is their dependence on an external {OCR} system, which can negatively impact both performance and computational speed. Recent {OCR}-free methods were proposed to address the previous issues. Inspired by their promising results, we propose in this paper an {OCR}-free end-to-end information extraction model named {DocParser}. It differs from prior end-to-end approaches by its ability to better extract discriminative character features. {DocParser} achieves state-of-the-art results on various datasets, while still being faster than previous works.}
+      \field{note}{Publisher: [object Object] Version Number: 2}
+      \field{shorttitle}{{DocParser}}
+      \field{title}{{DocParser}: End-to-end {OCR}-free Information Extraction from Visually Rich Documents}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2304.12484
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2304.12484
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2304.12484
+      \endverb
+      \keyw{Artificial Intelligence (cs.{AI}),Computer Vision and Pattern Recognition (cs.{CV}),{FOS}: Computer and information sciences}
+    \endentry
+    \entry{dongre_review_2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cfa9be819db78b0759b33c6dba063b64}{%
+           family={Dongre},
+           familyi={D\bibinitperiod},
+           given={Vikas\bibnamedelima J},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d278a2fce21f37be21896346cb9d0a2}{%
+           family={Mankar},
+           familyi={M\bibinitperiod},
+           given={Vijay\bibnamedelima H},
+           giveni={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a499efc3e195033947e03403933e88a}{%
+           family={Suganya},
+           familyi={S\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1197fdd94c452e468fbf3a024efccca1}
+      \strng{fullhash}{1197fdd94c452e468fbf3a024efccca1}
+      \strng{bibnamehash}{1197fdd94c452e468fbf3a024efccca1}
+      \strng{authorbibnamehash}{1197fdd94c452e468fbf3a024efccca1}
+      \strng{authornamehash}{1197fdd94c452e468fbf3a024efccca1}
+      \strng{authorfullhash}{1197fdd94c452e468fbf3a024efccca1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{issn}{09758887}
+      \field{journaltitle}{International Journal of Computer Applications}
+      \field{month}{12}
+      \field{number}{2}
+      \field{shortjournal}{{IJCA}}
+      \field{title}{A Review of Research on Devnagari Character Recognition}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{12}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{8\bibrangedash 15}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.5120/1653-2224
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/novak/Zotero/storage/GNUA59WX/Dongre et al. - 2010 - A Review of Research on Devnagari Character Recogn.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ijcaonline.org/volume12/number2/pxc3872224.pdf
+      \endverb
+      \verb{url}
+      \verb http://ijcaonline.org/volume12/number2/pxc3872224.pdf
+      \endverb
+    \endentry
+    \entry{dutt_now_2024}{report}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c7b7fd48d921a43da64f17e511e8550a}{%
+           family={Dutt},
+           familyi={D\bibinitperiod},
+           given={Deboroshio},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c08ceb3389f3a30fdd7de5c9a8ab48a}{%
+           family={Ammanath},
+           familyi={A\bibinitperiod},
+           given={Beena},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a00b92814b72843fcaf919896953472}{%
+           family={Perricos},
+           familyi={P\bibinitperiod},
+           given={Costi},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea67626860420a7c85e5471a3a2acb37}{%
+           family={Sniderman},
+           familyi={S\bibinitperiod},
+           given={Brenna},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Deloitte}%
+      }
+      \strng{namehash}{f24c0756099f0e51a49262038c3dde7e}
+      \strng{fullhash}{82ecd2b157741924de056c22f4ff20ee}
+      \strng{bibnamehash}{82ecd2b157741924de056c22f4ff20ee}
+      \strng{authorbibnamehash}{82ecd2b157741924de056c22f4ff20ee}
+      \strng{authornamehash}{f24c0756099f0e51a49262038c3dde7e}
+      \strng{authorfullhash}{82ecd2b157741924de056c22f4ff20ee}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{Now decides next: Insights from the leading edge of generative {AI} adoptation}
+      \field{type}{Study}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 33}
+      \range{pages}{33}
+      \verb{urlraw}
+      \verb https://www2.deloitte.com/de/de/pages/trends/ki-studie.html
+      \endverb
+      \verb{url}
+      \verb https://www2.deloitte.com/de/de/pages/trends/ki-studie.html
+      \endverb
+    \endentry
+    \entry{esposito_intelligent_2005}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7e4835512bfaf17b2969991bd08fcc0f}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce47e29052babbaacff7e6f0fa248f92}{%
+           family={Ferilli},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f885f1e512fe227c97f37ff7f6691fed}{%
+           family={Basile},
+           familyi={B\bibinitperiod},
+           given={T.M.A.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61d730e959dabe49346b4eb830c025b8}{%
+           family={Di\bibnamedelima Mauro},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Seoul, South Korea}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ffd243fcb61d5e4a571a9598c4a67b5f}
+      \strng{fullhash}{97603a239800006fa93a355fdc082af5}
+      \strng{bibnamehash}{97603a239800006fa93a355fdc082af5}
+      \strng{authorbibnamehash}{97603a239800006fa93a355fdc082af5}
+      \strng{authornamehash}{ffd243fcb61d5e4a571a9598c4a67b5f}
+      \strng{authorfullhash}{97603a239800006fa93a355fdc082af5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Eighth International Conference on Document Analysis and Recognition ({ICDAR}'05)}
+      \field{eventtitle}{Eighth International Conference on Document Analysis and Recognition ({ICDAR}'05)}
+      \field{isbn}{978-0-7695-2420-7}
+      \field{title}{Intelligent document processing}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1100\bibrangedash 1104 Vol. 2}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ICDAR.2005.144
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/1575714/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1575714/
+      \endverb
+    \endentry
+    \entry{garncarek_lambert_2020}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=19b65a13fc55bbf9e9bf0c82a96db1c2}{%
+           family={Garncarek},
+           familyi={G\bibinitperiod},
+           given={Łukasz},
+           giveni={Ł\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1516a9dfe44aee82a5150b3035590cfb}{%
+           family={Powalski},
+           familyi={P\bibinitperiod},
+           given={Rafał},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5594a3a2b1f32cd0aa6a3bf17938189f}{%
+           family={Stanisławek},
+           familyi={S\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eca507d2251e10ed80716b1c43ce3f56}{%
+           family={Topolski},
+           familyi={T\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77f3679b4d07ef3e923b3e62f051a6d1}{%
+           family={Halama},
+           familyi={H\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea1292e88556a55f58debee64a312653}{%
+           family={Turski},
+           familyi={T\bibinitperiod},
+           given={Michał},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c9c145af0c355a6ca356f8810300a1a}{%
+           family={Graliński},
+           familyi={G\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a12a8951c122d625d70302c2e05770c9}
+      \strng{fullhash}{91411034e315e010af19e673b068e47c}
+      \strng{bibnamehash}{91411034e315e010af19e673b068e47c}
+      \strng{authorbibnamehash}{91411034e315e010af19e673b068e47c}
+      \strng{authornamehash}{a12a8951c122d625d70302c2e05770c9}
+      \strng{authorfullhash}{91411034e315e010af19e673b068e47c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We introduce a simple new approach to the problem of understanding documents where non-trivial layout influences the local semantics. To this end, we modify the Transformer encoder architecture in a way that allows it to use layout features obtained from an {OCR} system, without the need to re-learn language semantics from scratch. We only augment the input of the model with the coordinates of token bounding boxes, avoiding, in this way, the use of raw images. This leads to a layout-aware language model which can then be fine-tuned on downstream tasks. The model is evaluated on an end-to-end information extraction task using four publicly available datasets: Kleister {NDA}, Kleister Charity, {SROIE} and {CORD}. We show that our model achieves superior performance on datasets consisting of visually rich documents, while also outperforming the baseline {RoBERTa} on documents with flat layout ({NDA} {\textbackslash}(F\_\{1\}{\textbackslash}) increase from 78.50 to 80.42). Our solution ranked first on the public leaderboard for the Key Information Extraction from the {SROIE} dataset, improving the {SOTA} {\textbackslash}(F\_\{1\}{\textbackslash})-score from 97.81 to 98.17.}
+      \field{note}{Publisher: {arXiv} Version Number: 5}
+      \field{shorttitle}{{LAMBERT}}
+      \field{title}{{LAMBERT}: Layout-Aware (Language) Modeling for information extraction}
+      \field{urlday}{29}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2002.08087
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2002.08087
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2002.08087
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Computation and Language (cs.{CL})}
+    \endentry
+    \entry{geva_transformer_2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6ddfda347d05ca4293f624d7d476c882}{%
+           family={Geva},
+           familyi={G\bibinitperiod},
+           given={Mor},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a5fad898e95087e1179b1abd0227e94}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={Roei},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59365fb6f8cc1328f2453e8fb33dfba4}{%
+           family={Berant},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=038965e189161e03f6255a4278c280a1}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Omer},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4aaee4fc48500f559528e5aee27c7620}
+      \strng{fullhash}{84dedabb7bd6ff5b093c7aa11c42980a}
+      \strng{bibnamehash}{84dedabb7bd6ff5b093c7aa11c42980a}
+      \strng{authorbibnamehash}{84dedabb7bd6ff5b093c7aa11c42980a}
+      \strng{authornamehash}{4aaee4fc48500f559528e5aee27c7620}
+      \strng{authorfullhash}{84dedabb7bd6ff5b093c7aa11c42980a}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Feed-forward layers constitute two-thirds of a transformer model's parameters, yet their role in the network remains under-explored. We show that feed-forward layers in transformer-based language models operate as key-value memories, where each key correlates with textual patterns in the training examples, and each value induces a distribution over the output vocabulary. Our experiments show that the learned patterns are human-interpretable, and that lower layers tend to capture shallow patterns, while upper layers learn more semantic ones. The values complement the keys' input patterns by inducing output distributions that concentrate probability mass on tokens likely to appear immediately after each pattern, particularly in the upper layers. Finally, we demonstrate that the output of a feed-forward layer is a composition of its memories, which is subsequently refined throughout the model's layers via residual connections to produce the final output distribution.}
+      \field{title}{Transformer Feed-Forward Layers Are Key-Value Memories}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2012.14913
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2012.14913
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2012.14913
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Computation and Language (cs.{CL})}
+    \endentry
+    \entry{hamad_detailed_2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=57fdd830a2fb08bffbf323b10b22aeee}{%
+           family={Hamad},
+           familyi={H\bibinitperiod},
+           given={Karez},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcba0ae260e7c7b43f96d0769f4d569b}{%
+           family={Kaya},
+           familyi={K\bibinitperiod},
+           given={Mehmet},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da21c2f854a70ffc02be0b41e854a02a}
+      \strng{fullhash}{da21c2f854a70ffc02be0b41e854a02a}
+      \strng{bibnamehash}{da21c2f854a70ffc02be0b41e854a02a}
+      \strng{authorbibnamehash}{da21c2f854a70ffc02be0b41e854a02a}
+      \strng{authornamehash}{da21c2f854a70ffc02be0b41e854a02a}
+      \strng{authorfullhash}{da21c2f854a70ffc02be0b41e854a02a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{issn}{2147-8228}
+      \field{issue}{Special Issue-1}
+      \field{journaltitle}{International Journal of Applied Mathematics, Electronics and Computers}
+      \field{month}{12}
+      \field{title}{A Detailed Analysis of Optical Character Recognition Technology}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{244\bibrangedash 244}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.18100/ijamec.270374
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/novak/Zotero/storage/WZYGAHXH/Hamad and Kaya - 2016 - A Detailed Analysis of Optical Character Recogniti.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dergipark.org.tr/en/doi/10.18100/ijamec.270374
+      \endverb
+      \verb{url}
+      \verb https://dergipark.org.tr/en/doi/10.18100/ijamec.270374
+      \endverb
+    \endentry
     \entry{howarth_57_2024}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a0cdf8a68143dd854ab58cc099b22030}{%
@@ -62,6 +851,988 @@
       \verb https://explodingtopics.com/blog/ai-statistics
       \endverb
     \endentry
+    \entry{huang_layoutlmv3_2022}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9c947c7a366bf27ebdb27000794a506a}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yupan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16c15c1e2b6e3b196fd18ea0415143d4}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Tengchao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23de8e31627a3d5a6e8bf5c3c8831fd8}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yutong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lisboa Portugal}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{0e4edbac346cfe0b44bdb6a2847951e2}
+      \strng{fullhash}{0d50a5081a811acde22d9f5b12a3304c}
+      \strng{bibnamehash}{0d50a5081a811acde22d9f5b12a3304c}
+      \strng{authorbibnamehash}{0d50a5081a811acde22d9f5b12a3304c}
+      \strng{authornamehash}{0e4edbac346cfe0b44bdb6a2847951e2}
+      \strng{authorfullhash}{0d50a5081a811acde22d9f5b12a3304c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Proceedings of the 30th {ACM} International Conference on Multimedia}
+      \field{day}{10}
+      \field{eventtitle}{{MM} '22: The 30th {ACM} International Conference on Multimedia}
+      \field{isbn}{978-1-4503-9203-7}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shorttitle}{{LayoutLMv}3}
+      \field{title}{{LayoutLMv}3: Pre-training for Document {AI} with Unified Text and Image Masking}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4083\bibrangedash 4091}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3503161.3548112
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/Users/novak/Zotero/storage/59HRJTW4/Huang et al. - 2022 - LayoutLMv3 Pre-training for Document AI with Unif.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3503161.3548112
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3503161.3548112
+      \endverb
+    \endentry
+    \entry{hwang_post-ocr_2019}{inproceedings}{}
+      \name{author}{9}{ul=2}{%
+        {{un=0,uniquepart=base,hash=0ed7d7c352daa4be473dfb4f526c7714}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Wonseok},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=24f6a9ff88321a5f41dbf97011a2bde0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seonghyeon},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=c6a70b90cc23e43aa6914a271ac0004d}{%
+           family={Seo},
+           familyi={S\bibinitperiod},
+           given={Minjoon},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=004f623ef7865d52eab2f931af665e3c}{%
+           family={Yim},
+           familyi={Y\bibinitperiod},
+           given={Jinyeong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=994fb2e116d68bdc24de350954c67b0e}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Seunghyun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b251c20c14f503c109a8e8141af36e8}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Sungrae},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27915560d6ab0255cd1175cd56cffe35}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Junyeop},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45c762dc0e7a36818ccf0ce1d2863e95}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Bado},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f08c00bcf176a186203d8e949c591d83}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hwalsuk},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a35978b918309edc3e42a02ec5e51d6a}
+      \strng{fullhash}{bbebcd947b4a81244b12e1326dd83cd9}
+      \strng{bibnamehash}{bbebcd947b4a81244b12e1326dd83cd9}
+      \strng{authorbibnamehash}{bbebcd947b4a81244b12e1326dd83cd9}
+      \strng{authornamehash}{a35978b918309edc3e42a02ec5e51d6a}
+      \strng{authorfullhash}{bbebcd947b4a81244b12e1326dd83cd9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Post-{OCR} parsing: building simple and robust parser via {BIO} tagging}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:207910450
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:207910450
+      \endverb
+    \endentry
+    \entry{hwang_spatial_2021}{inproceedings}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=0ed7d7c352daa4be473dfb4f526c7714}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Wonseok},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=004f623ef7865d52eab2f931af665e3c}{%
+           family={Yim},
+           familyi={Y\bibinitperiod},
+           given={Jinyeong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=994fb2e116d68bdc24de350954c67b0e}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Seunghyun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ba5ae7cf18e78606d8fba74c7ded147}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Sohee},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6a70b90cc23e43aa6914a271ac0004d}{%
+           family={Seo},
+           familyi={S\bibinitperiod},
+           given={Minjoon},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{eafa4803ccaa7acd01f22f36c4ac36c5}
+      \strng{fullhash}{01f015237bbba890efa85e87c40f016a}
+      \strng{bibnamehash}{01f015237bbba890efa85e87c40f016a}
+      \strng{authorbibnamehash}{01f015237bbba890efa85e87c40f016a}
+      \strng{authornamehash}{eafa4803ccaa7acd01f22f36c4ac36c5}
+      \strng{authorfullhash}{01f015237bbba890efa85e87c40f016a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Findings of the Association for Computational Linguistics: {ACL}-{IJCNLP} 2021}
+      \field{eventtitle}{Findings of the Association for Computational Linguistics: {ACL}-{IJCNLP} 2021}
+      \field{langid}{english}
+      \field{title}{Spatial Dependency Parsing for Semi-Structured Document Information Extraction}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{330\bibrangedash 343}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18653/v1/2021.findings-acl.28
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/novak/Zotero/storage/K9XH7AX2/Hwang et al. - 2021 - Spatial Dependency Parsing for Semi-Structured Doc.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2021.findings-acl.28
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2021.findings-acl.28
+      \endverb
+    \endentry
+    \entry{jiang_evaluating_2021}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=262e8aaf229fe30eaf29361304c42038}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ecb32962143020d167a605d3ac9f4ca}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yuerong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f082d5291dada008f1bc6bf601167bc}{%
+           family={Worthey},
+           familyi={W\bibinitperiod},
+           given={Glen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db0b65701ea1f3c63d1b753f6c41ece4}{%
+           family={Dubnicek},
+           familyi={D\bibinitperiod},
+           given={Ryan\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb493f05b820649da2dbd2f20ea5e809}{%
+           family={Underwood},
+           familyi={U\bibinitperiod},
+           given={Ted},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16c5a700cdfeba50b859bf4e2138ea1d}{%
+           family={Downie},
+           familyi={D\bibinitperiod},
+           given={J\bibnamedelima Stephen},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Champaign, {IL}, {USA}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ad7b4c7c730568e1592626b994097c43}
+      \strng{fullhash}{04cf2628ee8d4d0fc182838ada51c7d9}
+      \strng{bibnamehash}{04cf2628ee8d4d0fc182838ada51c7d9}
+      \strng{authorbibnamehash}{04cf2628ee8d4d0fc182838ada51c7d9}
+      \strng{authornamehash}{ad7b4c7c730568e1592626b994097c43}
+      \strng{authorfullhash}{04cf2628ee8d4d0fc182838ada51c7d9}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 {ACM}/{IEEE} Joint Conference on Digital Libraries ({JCDL})}
+      \field{eventtitle}{2021 {ACM}/{IEEE} Joint Conference on Digital Libraries ({JCDL})}
+      \field{isbn}{978-1-66541-770-9}
+      \field{month}{9}
+      \field{title}{Evaluating {BERT}'s Encoding of Intrinsic Semantic Features of {OCR}'d Digital Library Collections}
+      \field{urlday}{4}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{308\bibrangedash 309}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/JCDL52503.2021.00045
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9651810/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9651810/
+      \endverb
+    \endentry
+    \entry{kavzoglu_increasing_2009}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=38448fe96da25329812641d704cd9c60}{%
+           family={Kavzoglu},
+           familyi={K\bibinitperiod},
+           given={Taskin},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38448fe96da25329812641d704cd9c60}
+      \strng{fullhash}{38448fe96da25329812641d704cd9c60}
+      \strng{bibnamehash}{38448fe96da25329812641d704cd9c60}
+      \strng{authorbibnamehash}{38448fe96da25329812641d704cd9c60}
+      \strng{authornamehash}{38448fe96da25329812641d704cd9c60}
+      \strng{authorfullhash}{38448fe96da25329812641d704cd9c60}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13648152}
+      \field{journaltitle}{Environmental Modelling \& Software}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shortjournal}{Environmental Modelling \& Software}
+      \field{title}{Increasing the accuracy of neural network classification using refined training data}
+      \field{urlday}{29}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{24}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{850\bibrangedash 858}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.envsoft.2008.11.012
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1364815208002156
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1364815208002156
+      \endverb
+    \endentry
+    \entry{kim_ocr-free_2021}{article}{}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=92a16f10aa4f340d3631793399272e43}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Geewook},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b215b8dfd7340385e8ed11f73fd3018e}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Teakgyu},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=184196ac0b59942cd4559d5926883c2f}{%
+           family={Yim},
+           familyi={Y\bibinitperiod},
+           given={Moonbin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9750fdd8c00ce5fc5e20325f54ccfa30}{%
+           family={Nam},
+           familyi={N\bibinitperiod},
+           given={Jeongyeon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63811a7020891206896ce3a0afacb75c}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jinyoung},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=004f623ef7865d52eab2f931af665e3c}{%
+           family={Yim},
+           familyi={Y\bibinitperiod},
+           given={Jinyeong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ed7d7c352daa4be473dfb4f526c7714}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Wonseok},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb5683d5e1e58ddad99e436c69bb62e9}{%
+           family={Yun},
+           familyi={Y\bibinitperiod},
+           given={Sangdoo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d2ac11de77065ae48b1a2661bb6c477}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Dongyoon},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=994fb2e116d68bdc24de350954c67b0e}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Seunghyun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{28468e83e55cfccca6e2a3f2448da087}
+      \strng{fullhash}{04f97bd09af6f566e14f80ef7bd34899}
+      \strng{bibnamehash}{04f97bd09af6f566e14f80ef7bd34899}
+      \strng{authorbibnamehash}{04f97bd09af6f566e14f80ef7bd34899}
+      \strng{authornamehash}{28468e83e55cfccca6e2a3f2448da087}
+      \strng{authorfullhash}{04f97bd09af6f566e14f80ef7bd34899}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding document images (e.g., invoices) is a core but challenging task since it requires complex functions such as reading text and a holistic understanding of the document. Current Visual Document Understanding ({VDU}) methods outsource the task of reading text to off-the-shelf Optical Character Recognition ({OCR}) engines and focus on the understanding task with the {OCR} outputs. Although such {OCR}-based approaches have shown promising performance, they suffer from 1) high computational costs for using {OCR}; 2) inflexibility of {OCR} models on languages or types of document; 3) {OCR} error propagation to the subsequent process. To address these issues, in this paper, we introduce a novel {OCR}-free {VDU} model named Donut, which stands for Document understanding transformer. As the first step in {OCR}-free {VDU} research, we propose a simple architecture (i.e., Transformer) with a pre-training objective (i.e., cross-entropy loss). Donut is conceptually simple yet effective. Through extensive experiments and analyses, we show a simple {OCR}-free {VDU} model, Donut, achieves state-of-the-art performances on various {VDU} tasks in terms of both speed and accuracy. In addition, we offer a synthetic data generator that helps the model pre-training to be flexible in various languages and domains. The code, trained model and synthetic data are available at https://github.com/clovaai/donut.}
+      \field{title}{{OCR}-free Document Understanding Transformer}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2111.15664
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2111.15664
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2111.15664
+      \endverb
+      \keyw{Artificial Intelligence (cs.{AI}),{FOS}: Computer and information sciences,Machine Learning (cs.{LG})}
+    \endentry
+    \entry{mathew_infographicvqa_2021}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f4644481b016093a2a7e0d20663a0391}{%
+           family={Mathew},
+           familyi={M\bibinitperiod},
+           given={Minesh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4215d780f558106834d5cb25fe13f643}{%
+           family={Bagal},
+           familyi={B\bibinitperiod},
+           given={Viraj},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=458cfa225eae869bbabb932eb0d03b0f}{%
+           family={Tito},
+           familyi={T\bibinitperiod},
+           given={Rubèn\bibnamedelima Pérez},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f63f0e8d13ce3c9ec507db7dfb3c4ae0}{%
+           family={Karatzas},
+           familyi={K\bibinitperiod},
+           given={Dimosthenis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=066e473635b7405225abaecadc1a77fb}{%
+           family={Valveny},
+           familyi={V\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c28cbc2901395b4ae713740941e45d6f}{%
+           family={Jawahar},
+           familyi={J\bibinitperiod},
+           given={C.\bibnamedelimi V},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7290b5c1ff7ce82d43b07dc0cf7df89b}
+      \strng{fullhash}{7cb8615824565ed5c4635b26bd5a8751}
+      \strng{bibnamehash}{7cb8615824565ed5c4635b26bd5a8751}
+      \strng{authorbibnamehash}{7cb8615824565ed5c4635b26bd5a8751}
+      \strng{authornamehash}{7290b5c1ff7ce82d43b07dc0cf7df89b}
+      \strng{authorfullhash}{7cb8615824565ed5c4635b26bd5a8751}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Infographics are documents designed to effectively communicate information using a combination of textual, graphical and visual elements. In this work, we explore the automatic understanding of infographic images by using Visual Question Answering technique.To this end, we present {InfographicVQA}, a new dataset that comprises a diverse collection of infographics along with natural language questions and answers annotations. The collected questions require methods to jointly reason over the document layout, textual content, graphical elements, and data visualizations. We curate the dataset with emphasis on questions that require elementary reasoning and basic arithmetic skills. Finally, we evaluate two strong baselines based on state of the art multi-modal {VQA} models, and establish baseline performance for the new task. The dataset, code and leaderboard will be made available at http://docvqa.org}
+      \field{note}{Publisher: [object Object] Version Number: 2}
+      \field{title}{{InfographicVQA}}
+      \field{urlday}{27}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2104.12756
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2104.12756
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2104.12756
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Computation and Language (cs.{CL}),Computer Vision and Pattern Recognition (cs.{CV})}
+    \endentry
+    \entry{naser_error_2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=960405e33173605864b468db59aa7b0e}{%
+           family={Naser},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi Z.},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fee560abccb6fc9dbf9402d64ced630}{%
+           family={Alavi},
+           familyi={A\bibinitperiod},
+           given={Amir\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f7d52e2f9be56872479e7bf684a2c6c}
+      \strng{fullhash}{5f7d52e2f9be56872479e7bf684a2c6c}
+      \strng{bibnamehash}{5f7d52e2f9be56872479e7bf684a2c6c}
+      \strng{authorbibnamehash}{5f7d52e2f9be56872479e7bf684a2c6c}
+      \strng{authornamehash}{5f7d52e2f9be56872479e7bf684a2c6c}
+      \strng{authorfullhash}{5f7d52e2f9be56872479e7bf684a2c6c}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2730-9886, 2730-9894}
+      \field{journaltitle}{Architecture, Structures and Construction}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{Archit. Struct. Constr.}
+      \field{title}{Error Metrics and Performance Fitness Indicators for Artificial Intelligence and Machine Learning in Engineering and Sciences}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{499\bibrangedash 517}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s44150-021-00015-8
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/Users/novak/Zotero/storage/VQMYELNF/Naser and Alavi - 2023 - Error Metrics and Performance Fitness Indicators f.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s44150-021-00015-8
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s44150-021-00015-8
+      \endverb
+    \endentry
+    \entry{nguyen_neural_2020}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=1ba32218919aadd539539f8870bc9c1b}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Thi\bibnamedelimb Tuyet\bibnamedelima Hai},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3594d5be5bc84376af82ee5bad5230c6}{%
+           family={Jatowt},
+           familyi={J\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99235a679e5d48d753391a7e273e95ce}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Nhu-Van},
+           giveni={N\bibinithyphendelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aad9d516f3f9b6fba66bf4b46c12bbb6}{%
+           family={Coustaty},
+           familyi={C\bibinitperiod},
+           given={Mickael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b90d13f2d8d60fbf9aca5a608866288b}{%
+           family={Doucet},
+           familyi={D\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event China}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{8899eb7ca38e3062fa367c656e190542}
+      \strng{fullhash}{ead9dbc373937be456afda1bc2739a35}
+      \strng{bibnamehash}{ead9dbc373937be456afda1bc2739a35}
+      \strng{authorbibnamehash}{ead9dbc373937be456afda1bc2739a35}
+      \strng{authornamehash}{8899eb7ca38e3062fa367c656e190542}
+      \strng{authorfullhash}{ead9dbc373937be456afda1bc2739a35}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {ACM}/{IEEE} Joint Conference on Digital Libraries in 2020}
+      \field{eventtitle}{{JCDL} '20: The {ACM}/{IEEE} Joint Conference on Digital Libraries in 2020}
+      \field{isbn}{978-1-4503-7585-6}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Neural Machine Translation with {BERT} for Post-{OCR} Error Detection and Correction}
+      \field{urlday}{29}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{333\bibrangedash 336}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/3383583.3398605
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/Users/novak/Zotero/storage/FHB9T3CE/Nguyen et al. - 2020 - Neural Machine Translation with BERT for Post-OCR .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3383583.3398605
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3383583.3398605
+      \endverb
+    \endentry
+    \entry{pawan_confusion_2019}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42311cf7b931ad540dcbd2b4ae0bee05}{%
+           family={Pawan},
+           familyi={P\bibinitperiod},
+           given={Dubey},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42311cf7b931ad540dcbd2b4ae0bee05}
+      \strng{fullhash}{42311cf7b931ad540dcbd2b4ae0bee05}
+      \strng{bibnamehash}{42311cf7b931ad540dcbd2b4ae0bee05}
+      \strng{authorbibnamehash}{42311cf7b931ad540dcbd2b4ae0bee05}
+      \strng{authornamehash}{42311cf7b931ad540dcbd2b4ae0bee05}
+      \strng{authorfullhash}{42311cf7b931ad540dcbd2b4ae0bee05}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In statistical classification, we create algorithms or models to predict or classify data into a finite set of classes. Since models are not perfect, some data points will be classified incorrectly. Confusion matrix is basically a tabular summary showing how well the model is performing.}
+      \field{day}{20}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Confusion Matrix}
+      \field{titleaddon}{Devopedia}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/novak/Zotero/storage/TIYPTE8E/confusion-matrix.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://devopedia.org/confusion-matrix
+      \endverb
+      \verb{url}
+      \verb https://devopedia.org/confusion-matrix
+      \endverb
+    \endentry
+    \entry{peng_ernie-layout_2022}{misc}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=98409f3d25bf145b91a61650d3abc23d}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Qiming},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7ed70084322a1220a9fefb822bb119a}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Yinxu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ac3a5e8f9247f57b2e85956b9f97f9a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenjin},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79bc7ec1ff97c7cfa449afcfb6f3386a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fab509a575563dcce94d6d45f8bbd26}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhenyu},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57328b5565225c9cd310dd8f81e55f9c}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zhengjie},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=469071746c4094415dc090ce9892a6dd}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Teng},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cc15659d21fbd7867d76bca2d5ce10b}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Weichong},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa0c0e8cee0dbcb8fc86d47acc05bc5f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d6038c292fe254b531b0db4830097e3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=573e51b4603498ab07adb0e986bd2acf}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Shikun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17b6a43f5598c7efd897f9d254090fdd}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d761d577d421d6a0566473ae6b8b342f}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32cdecf5b1a19aa36ab641b9d9a3cc04}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71e226050f533b77aad3b866c1b7ef0a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haifeng},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{341f68ce37369cd6d9be822faa60a0b4}
+      \strng{fullhash}{f46f1aade81c47d7f7a0b3ffa8a11bfa}
+      \strng{bibnamehash}{f46f1aade81c47d7f7a0b3ffa8a11bfa}
+      \strng{authorbibnamehash}{f46f1aade81c47d7f7a0b3ffa8a11bfa}
+      \strng{authornamehash}{341f68ce37369cd6d9be822faa60a0b4}
+      \strng{authorfullhash}{f46f1aade81c47d7f7a0b3ffa8a11bfa}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recent years have witnessed the rise and success of pre-training techniques in visually-rich document understanding. However, most existing methods lack the systematic mining and utilization of layout-centered knowledge, leading to sub-optimal performances. In this paper, we propose {ERNIE}-Layout, a novel document pre-training solution with layout knowledge enhancement in the whole workflow, to learn better representations that combine the features from text, layout, and image. Specifically, we first rearrange input sequences in the serialization stage, and then present a correlative pre-training task, reading order prediction, to learn the proper reading order of documents. To improve the layout awareness of the model, we integrate a spatial-aware disentangled attention into the multi-modal transformer and a replaced regions prediction task into the pre-training phase. Experimental results show that {ERNIE}-Layout achieves superior performance on various downstream tasks, setting new state-of-the-art on key information extraction, document image classification, and document question answering datasets. The code and models are publicly available at http://github.com/{PaddlePaddle}/{PaddleNLP}/tree/develop/model\_zoo/ernie-layout.}
+      \field{day}{14}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{{arXiv}:2210.06155}
+      \field{shorttitle}{{ERNIE}-Layout}
+      \field{title}{{ERNIE}-Layout: Layout Knowledge Enhanced Pre-training for Visually-rich Document Understanding}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2210.06155 [cs]
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:/Users/novak/Zotero/storage/MYESCDCK/Peng et al. - 2022 - ERNIE-Layout Layout Knowledge Enhanced Pre-traini.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/PG3UQRJQ/2210.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2210.06155
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2210.06155
+      \endverb
+      \keyw{Computer Science - Computation and Language,Computer Science - Artificial Intelligence}
+    \endentry
+    \entry{peters_deep_2018}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=711e37ce316a72d79bd008a205513ef0}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Matthew\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93f95e4f65833691b9a15cbe2791e2df}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48ea6f65be60970c81190df53e86239e}{%
+           family={Iyyer},
+           familyi={I\bibinitperiod},
+           given={Mohit},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6adacaf607ef85a7b55da44661636929}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9edd3110f9350150b9a22ef5b7d45d25}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1dbd3a5b42828fb2cebd7786488ba425}{%
+           family={Zettlemoyer},
+           familyi={Z\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3eb58783a87d6c0565e02fda2ae5c07}
+      \strng{fullhash}{e4ae16c29e91a94c3ee954353fd212ab}
+      \strng{bibnamehash}{e4ae16c29e91a94c3ee954353fd212ab}
+      \strng{authorbibnamehash}{e4ae16c29e91a94c3ee954353fd212ab}
+      \strng{authornamehash}{d3eb58783a87d6c0565e02fda2ae5c07}
+      \strng{authorfullhash}{e4ae16c29e91a94c3ee954353fd212ab}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model ({biLM}), which is pre-trained on a large text corpus. We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging {NLP} problems, including question answering, textual entailment and sentiment analysis. We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.}
+      \field{note}{Publisher: [object Object] Version Number: 2}
+      \field{title}{Deep contextualized word representations}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1802.05365
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1802.05365
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1802.05365
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Computation and Language (cs.{CL})}
+    \endentry
+    \entry{popa_towards_2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a13e5245cf196946bd0ff9d4336778fa}{%
+           family={Popa},
+           familyi={P\bibinitperiod},
+           given={Diana\bibnamedelima Nicoleta},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8feeff76343793ae5e3c4d7c2d39d3d8}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f66a214e1ca36bb4cef5752eb337d6dc}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=410910ecb38a1335705bfa19ee963469}{%
+           family={Gaussier},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{683e6a4c4a61df773b334e1320704b9a}
+      \strng{fullhash}{3f5348234d8c1d6052590235ae09552c}
+      \strng{bibnamehash}{3f5348234d8c1d6052590235ae09552c}
+      \strng{authorbibnamehash}{3f5348234d8c1d6052590235ae09552c}
+      \strng{authornamehash}{683e6a4c4a61df773b334e1320704b9a}
+      \strng{authorfullhash}{3f5348234d8c1d6052590235ae09552c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Distributional semantic word representations are at the basis of most modern {NLP} systems. Their usefulness has been proven across various tasks, particularly as inputs to deep learning models. Beyond that, much work investigated fine-tuning the generic word embeddings to leverage linguistic knowledge from large lexical resources. Some work investigated context-dependent word token embeddings motivated by word sense disambiguation, using sequential context and large lexical resources. More recently, acknowledging the need for an in-context representation of words, some work leveraged information derived from language modelling and large amounts of data to induce contextualised representations. In this paper, we investigate S yntax- A ware word Tok en E mbeddings ( {SATokE} ) as a way to explicitly encode specific information derived from the linguistic analysis of a sentence in vectors which are input to a deep learning model. We propose an efficient unsupervised learning algorithm based on tensor factorisation for computing these token embeddings given an arbitrary graph of linguistic structure. Applying this method to syntactic dependency structures, we investigate the usefulness of such token representations as part of deep learning models of text understanding. We encode a sentence either by learning embeddings for its tokens and the relations between them from scratch or by leveraging pre-trained relation embeddings to infer token representations. Given sufficient data, the former is slightly more accurate than the latter, yet both provide more informative token embeddings than standard word representations, even when the word representations have been learned on the same type of context from larger corpora (namely pre-trained dependency-based word embeddings). We use a large set of supervised tasks and two major deep learning families of models for sentence understanding to evaluate our proposal. We empirically demonstrate the superiority of the token representations compared to popular distributional representations of words for various sentence and sentence pair classification tasks.}
+      \field{issn}{1351-3249, 1469-8110}
+      \field{journaltitle}{Natural Language Engineering}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{6}
+      \field{shortjournal}{Nat. Lang. Eng.}
+      \field{title}{Towards syntax-aware token embeddings}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{27}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{691\bibrangedash 720}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1017/S1351324920000297
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S1351324920000297/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S1351324920000297/type/journal_article
+      \endverb
+    \endentry
     \entry{rackspace_most_2023}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bbf5fca8ad3b69ce8532e8a1b08d45fb}{%
@@ -102,6 +1873,671 @@
       \verb{url}
       \verb https://www.statista.com/statistics/1447860/most-popular-ai-use-cases-enterprises/
       \endverb
+    \endentry
+    \entry{rahal_information_2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=22eb3caa29179caed7ef10ee1ed8b79e}{%
+           family={Rahal},
+           familyi={R\bibinitperiod},
+           given={Najoua},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a247f6d64385c97f2c34163209f81e6f}{%
+           family={Tounsi},
+           familyi={T\bibinitperiod},
+           given={Maroua},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=723397a256105ec56e82e0a62802aa87}{%
+           family={Benjlaiel},
+           familyi={B\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6193154767b30690993e3d3557332284}{%
+           family={Alimi},
+           familyi={A\bibinitperiod},
+           given={Adel\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e70eddf1534b48a0d5ec95b9fb0e4540}
+      \strng{fullhash}{9b519f4e99165f596a72581818e59d83}
+      \strng{bibnamehash}{9b519f4e99165f596a72581818e59d83}
+      \strng{authorbibnamehash}{9b519f4e99165f596a72581818e59d83}
+      \strng{authornamehash}{e70eddf1534b48a0d5ec95b9fb0e4540}
+      \strng{authorfullhash}{9b519f4e99165f596a72581818e59d83}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 {IEEE} 2nd International Workshop on Arabic and Derived Script Analysis and Recognition ({ASAR})}
+      \field{eventtitle}{2018 {IEEE} 2nd International Workshop on Arabic and Derived Script Analysis and Recognition ({ASAR})}
+      \field{isbn}{978-1-5386-1459-4}
+      \field{month}{3}
+      \field{title}{Information Extraction from Arabic and Latin scanned invoices}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{145\bibrangedash 150}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ASAR.2018.8480221
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8480221/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8480221/
+      \endverb
+    \endentry
+    \entry{ramachandran_stand-alone_2019}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e67314b379d3959e35d4acce17b95a6d}{%
+           family={Ramachandran},
+           familyi={R\bibinitperiod},
+           given={Prajit},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b8f07f4771197fda9eba469f897bee3}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Irwan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=738351d7ac35edab0cd231cb64407ab4}{%
+           family={Levskaya},
+           familyi={L\bibinitperiod},
+           given={Anselm},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f128e70084608a2c29c497ebd794f87}{%
+           family={Shlens},
+           familyi={S\bibinitperiod},
+           given={Jonathon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4d7210794fff5a0765d840ce6d9774c1}
+      \strng{fullhash}{4b537e7042c8b2053296122410578bc4}
+      \strng{bibnamehash}{4b537e7042c8b2053296122410578bc4}
+      \strng{authorbibnamehash}{4b537e7042c8b2053296122410578bc4}
+      \strng{authornamehash}{4d7210794fff5a0765d840ce6d9774c1}
+      \strng{authorfullhash}{4b537e7042c8b2053296122410578bc4}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Convolutions are a fundamental building block of modern computer vision systems. Recent approaches have argued for going beyond convolutions in order to capture long-range dependencies. These efforts focus on augmenting convolutional models with content-based interactions, such as self-attention and non-local means, to achieve gains on a number of vision tasks. The natural question that arises is whether attention can be a stand-alone primitive for vision models instead of serving as just an augmentation on top of convolutions. In developing and testing a pure self-attention vision model, we verify that self-attention can indeed be an effective stand-alone layer. A simple procedure of replacing all instances of spatial convolutions with a form of self-attention applied to {ResNet} model produces a fully self-attentional model that outperforms the baseline on {ImageNet} classification with 12\% fewer {FLOPS} and 29\% fewer parameters. On {COCO} object detection, a pure self-attention model matches the {mAP} of a baseline {RetinaNet} while having 39\% fewer {FLOPS} and 34\% fewer parameters. Detailed ablation studies demonstrate that self-attention is especially impactful when used in later layers. These results establish that stand-alone self-attention is an important addition to the vision practitioner's toolbox.}
+      \field{day}{13}
+      \field{eprinttype}{arxiv}
+      \field{month}{6}
+      \field{number}{{arXiv}:1906.05909}
+      \field{title}{Stand-Alone Self-Attention in Vision Models}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 1906.05909 [cs]
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:/Users/novak/Zotero/storage/JUU5K6XV/Ramachandran et al. - 2019 - Stand-Alone Self-Attention in Vision Models.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/6FYCHSAA/1906.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1906.05909
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1906.05909
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{tunstall_natural_2022}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c501d80117f163f338c3006a620cdc8c}{%
+           family={Tunstall},
+           familyi={T\bibinitperiod},
+           given={Lewis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d79df32baa2be92115c8ace1174b81b}{%
+           family={Werra},
+           familyi={W\bibinitperiod},
+           given={Leandro\bibnamedelima von},
+           giveni={L\bibinitperiod\bibinitdelim v\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c34c67badfd5b3624027e9c8c77a69f6}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e54e6c9ce5d233c7046a00f7b3faa6c0}{%
+           family={Géron},
+           familyi={G\bibinitperiod},
+           given={Aurélien},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Beijing Boston Farnham Sebastopol Tokyo}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly}%
+      }
+      \strng{namehash}{fd12487b7253e1746aa62cc306a0a71e}
+      \strng{fullhash}{7138ee74f76c02a56b744ce34015967c}
+      \strng{bibnamehash}{7138ee74f76c02a56b744ce34015967c}
+      \strng{authorbibnamehash}{7138ee74f76c02a56b744ce34015967c}
+      \strng{authornamehash}{fd12487b7253e1746aa62cc306a0a71e}
+      \strng{authorfullhash}{7138ee74f76c02a56b744ce34015967c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{First edition}
+      \field{isbn}{978-1-09-810324-8}
+      \field{pagetotal}{383}
+      \field{shorttitle}{Natural language processing with Transformers}
+      \field{title}{Natural language processing with Transformers: building language applications with Hugging Face}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Table of Contents PDF:/Users/novak/Zotero/storage/V2E2BQWM/Tunstall et al. - 2022 - Natural language processing with Transformers bui.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{vaswani_attention_2017}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2bc899b1160163417da7bf510f15d33}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{bibnamehash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authorbibnamehash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 {BLEU} on the {WMT} 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 {BLEU}. On the {WMT} 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art {BLEU} score of 41.8 after training for 3.5 days on eight {GPUs}, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.}
+      \field{title}{Attention Is All You Need}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1706.03762
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1706.03762
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1706.03762
+      \endverb
+      \keyw{{FOS}: Computer and information sciences,Machine Learning (cs.{LG}),Computation and Language (cs.{CL})}
+    \endentry
+    \entry{xu_layoutlmv2_2022}{misc}{}
+      \name{author}{12}{}{%
+        {{un=2,uniquepart=given,hash=9eda43a644030ac3eceaf837cb2489ac}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=37ab3773594025d7f25c839aac01952d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yiheng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16c15c1e2b6e3b196fd18ea0415143d4}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Tengchao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e614d1177b4e766695f7585009f350ae}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Guoxin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=251643e5328edc453395a4babee3ac78}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yijuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c2e0327abbc10ed65f68d90762db88e}{%
+           family={Florencio},
+           familyi={F\bibinitperiod},
+           given={Dinei},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6be2ddbf537bae561864776d40c36220}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cha},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb0803882fba28a6c7ecb519069a89de}{%
+           family={Che},
+           familyi={C\bibinitperiod},
+           given={Wanxiang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5f133678c8bdff0e050e19158f289ed}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e93cb68b77ead87355fd8fcb65dfb29a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Lidong},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{27132c6cb44b714617bf10b11e58f9bd}
+      \strng{fullhash}{99459ab68d902d3d1bf72d1efd9459eb}
+      \strng{bibnamehash}{99459ab68d902d3d1bf72d1efd9459eb}
+      \strng{authorbibnamehash}{99459ab68d902d3d1bf72d1efd9459eb}
+      \strng{authornamehash}{27132c6cb44b714617bf10b11e58f9bd}
+      \strng{authorfullhash}{99459ab68d902d3d1bf72d1efd9459eb}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents. We propose {LayoutLMv}2 architecture with new pre-training tasks to model the interaction among text, layout, and image in a single multi-modal framework. Specifically, with a two-stream multi-modal Transformer encoder, {LayoutLMv}2 uses not only the existing masked visual-language modeling task but also the new text-image alignment and text-image matching tasks, which make it better capture the cross-modality interaction in the pre-training stage. Meanwhile, it also integrates a spatial-aware self-attention mechanism into the Transformer architecture so that the model can fully understand the relative positional relationship among different text blocks. Experiment results show that {LayoutLMv}2 outperforms {LayoutLM} by a large margin and achieves new state-of-the-art results on a wide variety of downstream visually-rich document understanding tasks, including {FUNSD} (0.7895 \${\textbackslash}to\$ 0.8420), {CORD} (0.9493 \${\textbackslash}to\$ 0.9601), {SROIE} (0.9524 \${\textbackslash}to\$ 0.9781), Kleister-{NDA} (0.8340 \${\textbackslash}to\$ 0.8520), {RVL}-{CDIP} (0.9443 \${\textbackslash}to\$ 0.9564), and {DocVQA} (0.7295 \${\textbackslash}to\$ 0.8672). We made our model and code publicly available at {\textbackslash}url\{https://aka.ms/layoutlmv2\}.}
+      \field{day}{9}
+      \field{eprinttype}{arxiv}
+      \field{month}{1}
+      \field{number}{{arXiv}:2012.14740}
+      \field{shorttitle}{{LayoutLMv}2}
+      \field{title}{{LayoutLMv}2: Multi-modal Pre-training for Visually-Rich Document Understanding}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2012.14740 [cs]
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:/Users/novak/Zotero/storage/EJGQP6DT/Xu et al. - 2022 - LayoutLMv2 Multi-modal Pre-training for Visually-.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/BJEKRTQY/2012.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2012.14740
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2012.14740
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{xu_layoutlm_2020}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{un=2,uniquepart=given,hash=37ab3773594025d7f25c839aac01952d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yiheng},
+           giveni={Y\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=54c3918df39c65be2d07d130c2d4bc6d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Minghao},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=183ec41bf2d4edc2c4d5fb9f288d8e6a}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Shaohan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a72f304d2bc33c9c92301f2dc3063b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34c59249e1a9dc9e867dccc4aecc7faa}
+      \strng{fullhash}{ff4fda81c2a59d198cecdea15e01a150}
+      \strng{bibnamehash}{ff4fda81c2a59d198cecdea15e01a150}
+      \strng{authorbibnamehash}{ff4fda81c2a59d198cecdea15e01a150}
+      \strng{authornamehash}{34c59249e1a9dc9e867dccc4aecc7faa}
+      \strng{authorfullhash}{ff4fda81c2a59d198cecdea15e01a150}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Pre-training techniques have been verified successfully in a variety of {NLP} tasks in recent years. Despite the widespread use of pre-training models for {NLP} applications, they almost exclusively focus on text-level manipulation, while neglecting layout and style information that is vital for document image understanding. In this paper, we propose the {\textbackslash}textbf\{{LayoutLM}\} to jointly model interactions between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage image features to incorporate words' visual information into {LayoutLM}. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for document-level pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). The code and pre-trained {LayoutLM} models are publicly available at {\textbackslash}url\{https://aka.ms/layoutlm\}.}
+      \field{booktitle}{Proceedings of the 26th {ACM} {SIGKDD} International Conference on Knowledge Discovery \& Data Mining}
+      \field{day}{23}
+      \field{eprinttype}{arxiv}
+      \field{month}{8}
+      \field{shorttitle}{{LayoutLM}}
+      \field{title}{{LayoutLM}: Pre-training of Text and Layout for Document Image Understanding}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1192\bibrangedash 1200}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3394486.3403172
+      \endverb
+      \verb{eprint}
+      \verb 1912.13318 [cs]
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:/Users/novak/Zotero/storage/Z59R2FMX/Xu et al. - 2020 - LayoutLM Pre-training of Text and Layout for Docu.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/8UVD2ZT5/1912.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1912.13318
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1912.13318
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{yang_sub-layer_2020}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=3020df6dc26a450d537bd7e0fb1ce7a2}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yilin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73c98840f4d18bf9244a7175bbad79e3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Longyue},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed784b8fee5eef6e23f176b450371f8d}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Shuming},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a4ddda596180e30e863d614a08141f2}{%
+           family={Tadepalli},
+           familyi={T\bibinitperiod},
+           given={Prasad},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=571d2d1449f75b0c538caca8aa9bf4b6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acc6a66983d2de8a42d7c66841d4b534}{%
+           family={Tu},
+           familyi={T\bibinitperiod},
+           given={Zhaopeng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{d69bcc0b325dd02d3deb584a61a28edf}
+      \strng{fullhash}{ced1b3a9727369f7bd348b0a5711cfe0}
+      \strng{bibnamehash}{ced1b3a9727369f7bd348b0a5711cfe0}
+      \strng{authorbibnamehash}{ced1b3a9727369f7bd348b0a5711cfe0}
+      \strng{authornamehash}{d69bcc0b325dd02d3deb584a61a28edf}
+      \strng{authorfullhash}{ced1b3a9727369f7bd348b0a5711cfe0}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There have been significant efforts to interpret the encoder of Transformer-based encoder-decoder architectures for neural machine translation ({NMT}); meanwhile, the decoder remains largely unexamined despite its critical role. During translation, the decoder must predict output tokens by considering both the source-language text from the encoder and the target-language prefix produced in previous steps. In this work, we study how Transformer-based decoders leverage information from the source and target languages -- developing a universal probe task to assess how information is propagated through each module of each decoder layer. We perform extensive experiments on three major translation datasets ({WMT} En-De, En-Fr, and En-Zh). Our analysis provides insight on when and where decoders leverage different sources. Based on these insights, we demonstrate that the residual feed-forward module in each Transformer decoder layer can be dropped with minimal loss of performance -- a significant reduction in computation and number of parameters, and consequently a significant boost to both training and inference speed.}
+      \field{day}{6}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{{arXiv}:2010.02648}
+      \field{title}{On the Sub-Layer Functionalities of Transformer Decoder}
+      \field{urlday}{5}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2010.02648 [cs]
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:/Users/novak/Zotero/storage/8GJI8BYR/Yang et al. - 2020 - On the Sub-Layer Functionalities of Transformer De.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/9NZKFTHF/2010.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2010.02648
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2010.02648
+      \endverb
+      \keyw{Computer Science - Computation and Language,Computer Science - Artificial Intelligence}
+    \endentry
+    \entry{zhai_fast-structext_2023}{misc}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=72f6f2a3a354bd13e061a24a0ed4daaf}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Mingliang},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f645dc73099b41800dcbd85c58a2b7a8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yulin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a6253b6d0bbc620cb3e36e415d2b892}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Xiameng},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cfbbd9baf64b3290cd3494db5c1f16c}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f83204048b77cac902a148f291a5010c}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Qunyi},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b2f6ea04575645b360a206032ebf13d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chengquan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c2ec051118fc0e346336ef4725ab2b3}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e64a6f8bcb34673f8f76ad3e689a895e}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yuwei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d289786cb39f229d409a397c99f4944}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yunde},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{aa3b8394acb7fb8e0368322fed93d5a6}
+      \strng{fullhash}{e8fec4425232fce6a5a6e7c30a4736b1}
+      \strng{bibnamehash}{e8fec4425232fce6a5a6e7c30a4736b1}
+      \strng{authorbibnamehash}{e8fec4425232fce6a5a6e7c30a4736b1}
+      \strng{authornamehash}{aa3b8394acb7fb8e0368322fed93d5a6}
+      \strng{authorfullhash}{e8fec4425232fce6a5a6e7c30a4736b1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Transformers achieve promising performance in document understanding because of their high effectiveness and still suffer from quadratic computational complexity dependency on the sequence length. General efficient transformers are challenging to be directly adapted to model document. They are unable to handle the layout representation in documents, e.g. word, line and paragraph, on different granularity levels and seem hard to achieve a good trade-off between efficiency and performance. To tackle the concerns, we propose Fast-{StrucTexT}, an efficient multi-modal framework based on the {StrucTexT} algorithm with an hourglass transformer architecture, for visual document understanding. Specifically, we design a modality-guided dynamic token merging block to make the model learn multi-granularity representation and prunes redundant tokens. Additionally, we present a multi-modal interaction module called Symmetry Cross Attention ({SCA}) to consider multi-modal fusion and efficiently guide the token mergence. The {SCA} allows one modality input as query to calculate cross attention with another modality in a dual phase. Extensive experiments on {FUNSD}, {SROIE}, and {CORD} datasets demonstrate that our model achieves the state-of-the-art performance and almost 1.9X faster inference time than the state-of-the-art methods.}
+      \field{day}{18}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{{arXiv}:2305.11392}
+      \field{shorttitle}{Fast-{StrucTexT}}
+      \field{title}{Fast-{StrucTexT}: An Efficient Hourglass Transformer with Modality-guided Dynamic Token Merge for Document Understanding}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2305.11392 [cs]
+      \endverb
+      \verb{file}
+      \verb arXiv Fulltext PDF:/Users/novak/Zotero/storage/E5XPFQNX/Zhai et al. - 2023 - Fast-StrucTexT An Efficient Hourglass Transformer.pdf:application/pdf;arXiv.org Snapshot:/Users/novak/Zotero/storage/DBBUGBLK/2305.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2305.11392
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2305.11392
+      \endverb
+      \keyw{Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition}
     \endentry
   \enddatalist
 \endrefsection
